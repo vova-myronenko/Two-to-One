@@ -5,7 +5,7 @@ function longest(s1, s2) {
   let result = [];
     for (let i = 0; i < sorted.length; i++){
       if (sorted[i] !== sorted[i+1])
-        result.push(sorted[i])  
+        result.push(sorted[i]); 
     }
-       return result.join('')
+       return result.join('');
 }
